@@ -6,12 +6,12 @@
 (function($) {
   Drupal.behaviors.navbar_extras = {
     attach: function(context, settings) {
-      if (settings.navbar_extras_open_menu) {
+      if (settings.navbar_extras.navbar_extras_open_menu) {
         var a = "navbar-item--2";
         localStorage.setItem('Drupal.navbar.activeTabID', '"navbar-item--2"');
         localStorage.setItem('Drupal.navbar.activeTab', '"navbar-item--2"');
       }
-      if (settings.navbar_extras_lock_vertically) {
+      if (settings.navbar_extras.navbar_extras_lock_vertically) {
         localStorage.setItem('Drupal.navbar.trayVerticalLocked', "true");
       }
     }
