@@ -20,6 +20,7 @@
 
 body.navbar-fixed #navbar-administration .navbar-tray-vertical {
   overflow: hidden;
+  border-right: 0;
 }
 
 #navbar-administration .navbar-tray .navbar-menu li.open ul a {
