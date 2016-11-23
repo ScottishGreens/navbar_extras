@@ -1,4 +1,5 @@
 #navbar-administration ul.navbar-menu li a,
+#navbar-administration ul.navbar-menu li span.nolink,
 #navbar-administration .navbar-tab a {
   color: #eee;
   font-family: "Open Sans", sans-serif;
