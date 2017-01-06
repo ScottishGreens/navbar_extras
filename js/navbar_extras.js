@@ -11,7 +11,7 @@
         localStorage.setItem('Drupal.navbar.activeTabID', '"navbar-item--2"');
         localStorage.setItem('Drupal.navbar.activeTab', '"navbar-item--2"');
       }
-      if (settings.navbar_extras.navbar_extras_lock_vertically) {
+      if (settings.navbar_extras && settings.navbar_extras.navbar_extras_lock_vertically) {
         localStorage.setItem('Drupal.navbar.trayVerticalLocked', "true");
       }
     }
